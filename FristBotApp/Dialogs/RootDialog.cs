@@ -4,7 +4,7 @@ using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Connector;
 using System.Collections.Generic;
 
-namespace FristBotApp.Dialogs
+namespace HotelFlightFinder.Dialogs
 {
     [Serializable]
     public class RootDialog : IDialog<object>

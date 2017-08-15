@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using Microsoft.Bot.Builder.FormFlow;
 
-namespace FristBotApp
+namespace HotelFlightFinder
 {
     [Serializable]
     public class FlightsQuery

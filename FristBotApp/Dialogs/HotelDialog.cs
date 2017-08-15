@@ -7,7 +7,7 @@ using Microsoft.Bot.Builder.FormFlow;
 using System.Web;
 using System.Linq;
 
-namespace FristBotApp.Dialogs
+namespace HotelFlightFinder.Dialogs
 {
     [Serializable]
     public class HotelDialog : IDialog<object>
