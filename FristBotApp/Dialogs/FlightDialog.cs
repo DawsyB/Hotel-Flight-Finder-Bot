@@ -25,7 +25,7 @@ namespace HotelFlightFinder.Dialogs
         {
             OnCompletionAsyncDelegate<FlightsQuery> processFlightSearch = async (context, state) =>
             {
-                await context.PostAsync($"Ok. Searching for Hotels in {state.Destination} from {state.FlyDate.ToString("MM/dd")} to {state.ReturnDate.ToString("MM/dd")}...");
+                await context.PostAsync($"Ok. Searching for Flights in {state.Destination} from {state.FlyDate.ToString("MM/dd")} to {state.ReturnDate.ToString("MM/dd")}...");
             };
 
             return new FormBuilder<FlightsQuery>()

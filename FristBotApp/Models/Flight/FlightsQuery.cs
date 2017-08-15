@@ -21,11 +21,10 @@ namespace HotelFlightFinder
         [Prompt("Looking for Return Flight?")]
         public bool ReturnFlight { get; set; }
 
-        [Prompt("When do you want to return {&}?")]
+        [Prompt("What will be your {&}?")]
         public DateTime ReturnDate { get; set; }
     
-        [Prompt("Class of flight your Prefer {&}?")]
-        public string BusinessEconomy { get; set; }
+        
 
         [Prompt("{&}?")]
         public string NoOfPassengers { get; set; }
